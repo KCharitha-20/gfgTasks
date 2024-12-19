@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h1:hover{
+            color: red;
+            font-style: italic;
+        }
+        button{
+            background-color: green;
+            border-radius: 10px;
+            color: white;
+            padding: 7px;
+            border-color: black;
+        }
+        button:hover{
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    <h1>heading</h1>
+    <button>Apply</button>
+    <style>
+        /* h1{
+            color: brown;
+        }
+        p{
+            color: aqua;
+        }
+        div>p{
+            background-color: black;
+            color: aliceblue;
+        } 
+        span{
+            color: blueviolet;
+            background-color: bisque;
+        }
+        div>span{
+            background-color: yellow;
+            color: red;
+        }
+        div~p{
+            background-color: blueviolet;
+            color: azure;
+        } */
+        p:hover {
+          background: black;
+        }
+        /* Active links */
+        a:active {
+          color: red;
+        }
+        li:nth-child(3){
+            color: blue;
+        }
+        li:nth-child(2){
+            color: red;
+        }
+        li:nth-child(1){
+            color: green;
+        }
+        input[type=text]{
+            border-color: rgb(13, 0, 255);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+    </style>
+    <!-- <h1>heading</h1>
+    <p>this is para</p>
+    <div>
+        <p>
+            this is p1
+            <p>this is grandp</p>
+        </p>
+        <span>span1 this is 
+            <span>
+                again span inside span
+            </span>
+        </span>
+        <p>this is para3</p>
+    </div>
+    <p>para1</p>
+    <p>outside para 2</p> -->
+    <p>
+        This paragraph contains a link:
+        <a href="#">This link will turn red while you click on it.</a>
+        The paragraph will get a gray background while you click on it or the link.
+    </p>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <form>
+        <input type="text" placeholder="enter text">
+        <input type="password">
+    </form>
+</body>
+</html>

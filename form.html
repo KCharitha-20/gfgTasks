@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+    <form>
+            <center>            
+                <h1>
+                    Registration Form
+                </h1>
+            </center>
+            <h2>About this Event</h2>
+            <p>Event Name: Art Exibhition</p>
+            <p>Date      : 15-12-2024</p>
+            <p>Time      : 3:00PM to 6:00PM</p>
+            <P>Organizer : Aditya Institute</P>
+            <fieldset>
+                <legend>User Registration Details</legend>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <label for="name">First name</label>
+                    <input type="text" name="name">
+                    <br><br>
+                    <label for="name2">Last name</label>
+                    <input type="text" name="name2">
+                    <br><br>
+                    <label for="mail">E-Mail</label>
+                    <input type="email" name="mail">
+                    <br><br>
+                    <label for="phn">Mobile Number</label>
+                    <input type="tel" name="phn">
+                    <br><br>
+                    <label for="gender">Gender</label>
+                    <input type="radio" name="phn">Male
+                    <input type="radio" name="phn">Female
+                </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Address</legend>
+                <label for="country">Country</label>
+                <select name="country" id="">
+                    <option value="afganisthan">Afganisthan</option>
+                    <option value="brazil">Brazil</option>
+                    <option value="canada">Canada</option>
+                    <option value="india">India</option>
+                </select>
+                <br><br>
+                <label for="state">Country</label>
+                <select name="state" id="">
+                    <option value="andhra">Andhra Pradesh</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="telangana">Telangana</option>
+                    <option value="kerala">Kerala</option>
+                </select>
+                <br><br>
+                <label for="city">City</label>
+                <input type="text" list="city" name="city">
+                <datalist id="city">
+                    <option value="srikakulam">Srikakulam</option>
+                    <option value="rajam">Rajam</option>
+                    <option value="tekkali">Tekkali</option>
+                </datalist>
+                <br><br>
+                <label for="add">Address</label>
+                <textarea name="add" id=""></textarea>
+            </fieldset>
+            </fieldset>
+            <br><br>
+    </form>
+</body>
+</html>
