@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container{
+            background-color: bisque;
+            height: 30vh;
+            width: 100vw;
+            /* display: flex; */
+            /* justify-content: end;
+            align-items: end; */
+        }
+        .justifycontainer{
+            background-color: bisque;
+            height: 70vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            justify-content: space-between;
+        }
+        .cont{
+            background-color: bisque;
+            height: 400px;
+            width: 80vw;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .cont1{
+            height: 60px;
+            width: 150px;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+        }
+        .cont2{
+            height: 60px;
+            width: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cont3{
+            height: 60px;
+            width: 250px;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
+        .box1{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+        }
+        .box2{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
+        .box3{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+        }
+        .box4{
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+        }
+    </style>
+    <div class="justifycontainer">
+        <div class="box4">1</div>
+        <div class="box3">2</div>
+        <div class="box2">3</div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="cont1">
+            <div class="box4">1</div>
+        </div>
+        <div class="cont2">
+            <div class="box2">2</div>
+        </div>
+        <div class="cont3">
+            <div class="box3">3</div>
+        </div>
+        <!-- <div class="box2">2</div>
+        <div class="box3">3</div> -->
+        <!-- <div class="box4">4</div> -->
+    </div><br>
+    <div class="cont">
+        <div class="box4">1</div>
+        <div class="box3">2</div>
+        <div class="box2"></div>
+        <div class="box1">1</div>
+        <div class="box4">2</div>
+        <div class="box3"></div>
+        <div class="box4">1</div>
+        <div class="box3">2</div>
+        <div class="box2"></div>
+        <div class="box1">1</div>
+        <div class="box4">2</div>
+        <div class="box3"></div>
+    </div>
+</body>
+</html>
